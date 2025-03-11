@@ -5,7 +5,7 @@ import styles from "../styles/styles";
 export default function Home() {
     return(
         <View style={styles.container}>
-        <Text style={styles.title}> Persistência e Navegação </Text>
+        <Text style={styles.title}> Persistência e Navegação</Text>
         <TextInput style={styles.input} placeholder="Digite algo..." keyboardType="text"></TextInput>
         <Text style={styles.sempersistencia}> Sem persistência: Nenhum texto salvo </Text>
         <Text style={styles.persistencia}> Texto persistido: Nenhum texto salvo </Text>

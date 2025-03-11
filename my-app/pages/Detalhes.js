@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import styles from "../styles/styles"
+import styles from "../styles/styles";
 
 export default function Detalhes() {
     return(
@@ -9,6 +9,5 @@ export default function Detalhes() {
         <Text style={styles.sempersistencia}> Sem persistência: Nenhum texto salvo </Text>
         <Text style={styles.persistencia}> Texto persistido: Nenhum texto salvo </Text>
         </View>
-    
     );
 }
