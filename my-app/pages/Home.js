@@ -15,8 +15,8 @@ export default function Home() {
         <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Limpar</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={Detalhes}>
-        <Text style={styles.buttonText} >Detalhes</Text>
+        <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonText}>Detalhes</Text>
         </TouchableOpacity>
         </View>
     );
